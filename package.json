@@ -1,0 +1,36 @@
+{
+  "name": "node_js_ejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon --exec ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvaJax24/node_js_ejs.git"
+  },
+  "keywords": [
+    "node_js_ejs"
+  ],
+  "author": "yuva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvaJax24/node_js_ejs/issues"
+  },
+  "homepage": "https://github.com/yuvaJax24/node_js_ejs#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
